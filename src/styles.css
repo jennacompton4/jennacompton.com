@@ -1,0 +1,135 @@
+@import "@fontsource-variable/instrument-sans";
+@import "@fontsource-variable/newsreader/opsz.css";
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #f4f1ea;
+  --color-ink: #161513;
+  --color-mid: #6e6a64;
+  --color-faint: #d8d2c6;
+  --color-surface: #ebe6db;
+  --color-accent: #214840;
+  --color-accent-hover: #16352f;
+
+  --font-sans: "Instrument Sans Variable", "Instrument Sans", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  --font-display: "Newsreader Variable", "Newsreader", "Iowan Old Style",
+    Palatino, "Palatino Linotype", serif;
+
+  --text-label: 0.6875rem;
+  --text-nav: 0.9375rem;
+  --text-body: 1.0625rem;
+  --text-lede: clamp(1.125rem, 1rem + 0.5vw, 1.3125rem);
+  --text-hero: clamp(1.875rem, 1.2rem + 2vw, 2.75rem);
+  --text-wordmark: 0.9375rem;
+  --text-card-title: clamp(1.25rem, 1.1rem + 0.5vw, 1.5rem);
+
+  --leading-hero: 1.14;
+  --leading-lede: 1.45;
+  --leading-body: 1.55;
+
+  --tracking-hero: -0.03em;
+  --tracking-label: 0.16em;
+  --tracking-wordmark: 0.08em;
+
+  --max-width-measure: 40rem;
+  --max-width-shell: 68rem;
+  --grid-template-columns-work: 8.5rem minmax(0, 1fr);
+  --grid-template-columns-hero: minmax(0, 1fr) 18rem;
+  --grid-template-columns-projects: 1fr;
+  --radius-md: 0.75rem;
+  --radius-lg: 1.25rem;
+  --shadow-card:
+    0 0 0 1px rgb(22 21 19 / 0.06), 0 1px 2px -1px rgb(22 21 19 / 0.06),
+    0 2px 8px rgb(22 21 19 / 0.04);
+  --shadow-card-hover:
+    0 0 0 1px rgb(22 21 19 / 0.1), 0 8px 24px rgb(22 21 19 / 0.08);
+
+  --spacing-gutter: clamp(1.25rem, 4vw, 2.5rem);
+  --spacing-section: clamp(3.5rem, 8vw, 6rem);
+  --spacing-hero: clamp(2.25rem, 5vw, 3.75rem);
+  --spacing-portrait: 16rem;
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  html {
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+  }
+
+  ::selection {
+    background-color: var(--color-accent);
+    color: var(--color-paper);
+  }
+
+  a:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
+  }
+
+  img {
+    outline: 1px solid rgb(22 21 19 / 0.1);
+    outline-offset: -1px;
+  }
+
+  img.img-bare {
+    outline: none;
+  }
+}
+
+@layer components {
+  .link-accent {
+    text-decoration-line: underline;
+    text-decoration-color: var(--color-accent);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.28em;
+  }
+
+  .type-hero {
+    font-optical-sizing: auto;
+  }
+
+  .type-lede {
+    font-optical-sizing: auto;
+  }
+
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+
+  .shadow-card-hover:hover {
+    box-shadow: var(--shadow-card-hover);
+  }
+
+  .project-frame img {
+    transition: transform 200ms ease-out;
+  }
+
+  .group:hover .project-frame img {
+    transform: scale(1.02);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .group:hover .project-frame img {
+    transform: none;
+  }
+}
