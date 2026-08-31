@@ -34,10 +34,11 @@ export default function App() {
                   behind it.
                 </p>
                 <p className="mt-5 font-sans text-body leading-body text-pretty text-ink">
-                  Last quarter (Q2’26) I influenced $810K+ in pipeline, mostly new
-                  business in EMEA and APAC. $1.3M Stage 2 this fiscal year. My
-                  focus is developing our joint narrative around GenAI and building
-                  demand around the Zendesk + AWS joint solution.
+                  Last quarter (Q2’26) I influenced just under $1M in pipeline,
+                mostly new business in EMEA and APAC. Over $1M Stage 2 this
+                fiscal year. My focus is developing our joint narrative around
+                GenAI and building demand around the Zendesk + AWS joint
+                solution.
                 </p>
                 <p className="mt-5 font-sans text-body leading-body text-pretty text-ink">
                   Outside of work, I’ve been using AI to make learning tools for

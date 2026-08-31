@@ -6,3 +6,4 @@ dist
 *.log
 .wrangler
 .vite
+.cf-manifest.json

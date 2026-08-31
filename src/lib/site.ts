@@ -1,5 +1,5 @@
 export const EMAIL = "jenna.compton@gmail.com";
-export const RESUME_HREF = "/resume.pdf";
+export const RESUME_HREF = "/jenna-compton-resume.pdf";
 export const LINKEDIN_HREF = "https://www.linkedin.com/in/comptonjenna/";
 
 export const workItems = [
@@ -11,7 +11,7 @@ export const workItems = [
   {
     label: "Pipeline",
     title: "Q2’26",
-    body: "Last quarter I influenced $810K+ in pipeline, mostly new business in EMEA and APAC. $1.3M Stage 2 this fiscal year.",
+    body: "Last quarter I influenced just under $1M in pipeline, mostly new business in EMEA and APAC. Over $1M Stage 2 this fiscal year.",
   },
   {
     label: "Focus",
@@ -25,10 +25,10 @@ export const projects = [
     slug: "junior-golf-scout",
     name: "Junior Golf Scout",
     kicker: "NCAA D2 men’s golf",
-    href: null as string | null,
+    href: "https://juniorgolfscout.com",
     image: "/projects/junior-golf-scout.jpg",
     imageAlt:
-      "A laptop on a wooden desk showing a junior golf recruiting dashboard, with a scorecard and golf ball beside it.",
+      "Junior Golf Scout homepage with a live watchlist of junior golfers and a Texas tournament board.",
     summary:
       "A recruiting tool I built for NCAA D2 men’s golf coaches. Browse junior tournaments, watch prospects, plan recruiting trips, and send email reports.",
   },
@@ -41,7 +41,7 @@ export const projects = [
     imageAlt:
       "A homeschool dashboard open on a laptop, with printed worksheets on a wooden desk.",
     summary:
-      "A private day-of-school dashboard I built for our house. Today’s plan, subject tracks, printables, and a weekly rhythm — so the school day has a place to live.",
+      "A homeschool dashboard I built to track my kiddo's lessons with their tutor. Have each day's teacher instructions and worksheets printed with one click.",
   },
   {
     slug: "axolotl-matholotl",
@@ -50,7 +50,7 @@ export const projects = [
     href: "https://axolotlmatholotl.com",
     image: "/projects/axolotl-matholotl.jpg",
     imageAlt:
-      "A pink axolotl beside a tablet showing a simple addition problem.",
+      "Axolotl Matholotl homepage with a pink axolotl illustration and a Play free demo button.",
     summary:
       "A math game kids can actually sit down and play. Parents hold the account. Kids get the axolotl. I made it to see if I could, then kept going.",
   },

@@ -25,7 +25,7 @@ export function SiteHeader() {
           href={RESUME_HREF}
           target="_blank"
           rel="noreferrer"
-          className="link-accent inline-flex min-h-11 items-center font-sans text-nav text-ink transition-colors duration-150 ease-out hover:text-accent md:min-h-0"
+          className="inline-flex min-h-11 items-center font-sans text-nav text-ink transition-colors duration-150 ease-out hover:text-accent md:min-h-0"
         >
           Resume
         </a>
