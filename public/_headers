@@ -2,3 +2,4 @@
   Content-Type: application/pdf
   Content-Disposition: inline; filename="jenna-compton-resume.pdf"
   X-Content-Type-Options: nosniff
+  Cache-Control: public, max-age=0, must-revalidate
