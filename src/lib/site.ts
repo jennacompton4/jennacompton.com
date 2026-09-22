@@ -1,4 +1,4 @@
-export const EMAIL = "jenna.compton@gmail.com";
+export const EMAIL = "hello@jennaochoa.com";
 export const RESUME_HREF = "/jenna-compton-resume.pdf";
 export const LINKEDIN_HREF = "https://www.linkedin.com/in/comptonjenna/";
 
