@@ -1,5 +1,11 @@
 /jenna-compton-resume.pdf
   Content-Type: application/pdf
-  Content-Disposition: inline; filename="jenna-compton-resume.pdf"
+  Content-Disposition: inline; filename="resume.pdf"
+  X-Content-Type-Options: nosniff
+  Cache-Control: public, max-age=0, must-revalidate
+
+/resume.pdf
+  Content-Type: application/pdf
+  Content-Disposition: inline; filename="resume.pdf"
   X-Content-Type-Options: nosniff
   Cache-Control: public, max-age=0, must-revalidate
