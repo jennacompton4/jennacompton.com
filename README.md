@@ -11,7 +11,7 @@ Private on purpose. Do not make public.
 
 ## Edit
 
-Copy lives in `src/App.tsx` (hero) and `src/lib/site.ts` (work + projects). Portrait is `public/jenna-chibi.png`. Resume is `public/resume.pdf` (placeholder until a real file is dropped in).
+Copy lives in `src/App.tsx` (hero) and `src/lib/site.ts` (work + projects). Portrait is `public/jenna-chibi.png`. Resume is `public/jenna-ochoa-resume.pdf`.
 
 ## Deploy
 
